@@ -93,7 +93,10 @@ table, th, td {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-
+.collapsible-content p, .collapsible-content ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 
 /* The navigation bar */
 .navbar {

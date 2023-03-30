@@ -233,6 +233,34 @@ table, th, td {
   border:1px solid black;
 }
 
+.links {
+  border: 1px solid black;
+  margin-top: 3px;
+}
+.links button {
+  font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.button-header {
+  color: white;
+  background-color: black;
+  width: 200px;
+}
+.links a {
+  text-decoration: none;
+}
+.links a:link, a:visited {
+  color: black;
+}
+.links a:hover {
+  color: red;
+}
+
+
+/**********************************
 .food {
   display: grid;
   grid-template-columns: 1fr;
@@ -261,33 +289,7 @@ table, th, td {
   vertical-align: top;
   text-align: center;
 }
-
-.links {
-  border: 1px solid black;
-  margin-top: 3px;
-}
-.links button {
-  font-size: 25px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-.button-header {
-  color: white;
-  background-color: black;
-  width: 200px;
-}
-.links a {
-  text-decoration: none;
-}
-.links a:link, a:visited {
-  color: black;
-}
-.links a:hover {
-  color: red;
-}
-
+****************************/
 
 /*************************
 .finance-boxes {

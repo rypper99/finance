@@ -276,6 +276,7 @@ table, th, td {
 .button-header {
   color: white;
   background-color: black;
+  width: 200px;
 }
 .links a {
   text-decoration: none;

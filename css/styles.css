@@ -96,6 +96,7 @@ table, th, td {
 .collapsible-content p, .collapsible-content ul {
   margin-top: 0px;
   margin-bottom: 0px;
+  border: 1px solid black;
 }
 
 /* The navigation bar */

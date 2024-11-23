@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>finance</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+
+	<script src="https://kit.fontawesome.com/c011478768.js" crossorigin="anonymous"></script>
+	<script
+  src="https://code.jquery.com/jquery-3.6.3.min.js"
+  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+  crossorigin="anonymous">
+	</script>
+	<script>
+	$(function(){
+		$('#navbar').load('navbar-main.html')
+	})
+</script>
+</head>
+<body>
+	<div class="page-header">
+		<div id="navbar"></div>
+		<p class="page-title">TFSA: Tax-Free Savings Account</p>
+	</div>
+
+	<div class="main">
+		<button type="button" class="collapsible-item">Facts</button>
+		<div class="collapsible-content">
+			<ul>
+				<li>On Death</li>
+        <ul>
+          <li>beneficiary</li>
+          <ul>
+            <li>can be spouse (who is not successor holder), former spouses, common-law partners, children, etc.</li>
+            <li>if spouse named as beneficary, they have until Dec 31 of the year following the year of death to contribute
+              any payments received out of TFSA, up to the date of death value into their own TFSA without affecting their
+              own unused contribution room.
+              <ul>
+                <li>To complete this "exempt contribution", they must file CRA Form RC240 with 30 days after the contribution is made.</li>
+              </ul>
+            </li>
+          </ul>
+          <li>successor holder</li>
+          <ul>
+            <li>can only be surviving spouse or common-law partner</li>
+            <li>TFSA continues to exist and the successor holder assumes ownership of the TFSA contract and all of its contents</li>
+            <li>Successor Holder can directly transfer part or all of the value to their own TFSA and not affect available TFSA contribution room</li>
+          </ul>
+        </ul>
+			</ul>
+		</div>
+
+		<button type="button" class="collapsible-item">Strategy</button>
+		<div class="collapsible-content">
+			<ul>
+			</ul>
+		</div>
+
+		<button type="button" class="collapsible-item">Links</button>
+		<div class="collapsible-content">
+			<ul>
+				<li></li>
+			</ul>
+		</div>
+
+	</div> <!-- main -->
+
+	<script src="./scripts/collapsible-item.js"></script>
+
+</body>
+</html>
